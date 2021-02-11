@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'knox',
     'backend.apps.BackendConfig',
+    'frontend',
     'accounts',
 ]
 
