@@ -1,0 +1,14 @@
+version: '2'
+services:
+
+  db:
+    image: "postgres:9.6"
+    ports:
+      - "5432:5432"
+    volumes:
+      - database-data:/var/lib/postgresql/data/
+    environment:
+      POSTGRES_USER: ira_dosiak
+      POSTGRES_PASSWORD: 123ira_dosiak321
+volumes:
+  database-data:
